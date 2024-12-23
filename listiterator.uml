@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>listiterator</OriginalElement>
+  <nodes>
+    <node x="77.0" y="513.5">listiterator.NodeLinkedListIterator</node>
+    <node x="140.0" y="203.5">listiterator.Iterator</node>
+    <node x="-278.5" y="180.5">listiterator.LinearList</node>
+    <node x="77.0" y="354.5">listiterator.DynamicArrayListIterator</node>
+    <node x="-278.5" y="490.5">listiterator.NodeLinkedList</node>
+    <node x="-278.5" y="331.5">listiterator.DynamicArrayList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="listiterator.NodeLinkedList" target="listiterator.LinearList" relationship="REALIZATION">
+      <point x="-95.5" y="0.0" />
+      <point x="-296.0" y="564.0" />
+      <point x="-296.0" y="242.0" />
+      <point x="-95.5" y="0.0" />
+    </edge>
+    <edge source="listiterator.DynamicArrayList" target="listiterator.DynamicArrayListIterator" relationship="CREATE">
+      <point x="95.5" y="15.0" />
+      <point x="-162.0" y="15.0" />
+    </edge>
+    <edge source="listiterator.NodeLinkedListIterator" target="listiterator.NodeLinkedList" relationship="TO_ONE">
+      <point x="-150.0" y="15.0" />
+      <point x="-198.0" y="579.0" />
+      <point x="-15.0" y="73.5" />
+    </edge>
+    <edge source="listiterator.DynamicArrayListIterator" target="listiterator.DynamicArrayList" relationship="TO_ONE">
+      <point x="-162.0" y="0.0" />
+      <point x="95.5" y="0.0" />
+    </edge>
+    <edge source="listiterator.DynamicArrayList" target="listiterator.LinearList" relationship="REALIZATION">
+      <point x="0.0" y="-73.5" />
+      <point x="-183.0" y="260.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="listiterator.NodeLinkedListIterator" target="listiterator.Iterator" relationship="REALIZATION">
+      <point x="150.0" y="0.0" />
+      <point x="436.0" y="564.0" />
+      <point x="436.0" y="245.0" />
+      <point x="222.0" y="245.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="listiterator.NodeLinkedList" target="listiterator.NodeLinkedListIterator" relationship="CREATE">
+      <point x="0.0" y="73.5" />
+      <point x="-183.0" y="564.0" />
+      <point x="-150.0" y="0.0" />
+    </edge>
+    <edge source="listiterator.DynamicArrayListIterator" target="listiterator.Iterator" relationship="REALIZATION">
+      <point x="-32.0" y="-50.5" />
+      <point x="-15.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="true" x="31.0" y="421.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
